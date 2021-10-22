@@ -1,0 +1,83 @@
+body{
+  mediatype: screen;
+  margin: 0;
+  padding: 0;
+}
+p {
+  display: inline-block;
+  background-color: red;
+}
+h1 {
+  text-align: center;
+  font-family: japanese-formal;
+  color: orangered;
+  opacity: .6;
+  font-size: 35px;
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 0;
+  background-color: orange;
+  opacity: .5;
+  font-family: japanese-formal;
+  font-size: 30px;
+}
+
+ul, ol {
+  font-family: japanese-formal;
+  margin-top: 0;
+  font-size: 25px;
+}
+li {
+  font-size: 20px;
+    color: orange;
+}
+.copyright {
+  font-family: japanese-formal;
+  font-size: 15px;
+  font-style: italic;
+}
+.important
+{font-style: italic}
+
+div#woodenSpoon {
+  background-image: url(images/woodenspoon.jpg);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#woodenSpoon h1 {
+  color: white;
+  padding: 30vh 0 0 0;
+  margin: 0; 
+}
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .row {width: 33.33%;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
